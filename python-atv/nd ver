@@ -1,0 +1,120 @@
+@media (max-width: 480px) {
+    /* Ajuste no cabeçalho */
+    .cabeca {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: 14px;
+
+        a {
+            margin: 10px 0;
+        }
+    }
+
+    /* Ajuste no container principal */
+    .container-pai {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .tipo {
+        text-align: center;
+
+        .apresentacao {
+            font-size: 16px;
+
+            .nome {
+                font-size: 24px;
+            }
+        }
+    }
+
+    /* Ajuste nas habilidades */
+    .habilidades-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+        div {
+            text-align: center;
+        }
+    }
+
+    /* Ajuste nos projetos */
+    .projetos-container {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 20px;
+        padding: 10px;
+    }
+
+    .projetos {
+        width: 100%;
+        height: auto;
+    }
+
+    .projetos-descricao {
+        p {
+            font-size: 20px;
+        }
+
+        .p2 {
+            font-size: 16px;
+        }
+    }
+
+    .btn-ver-projeto {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    /* Ajuste no footer */
+    footer {
+        flex-direction: column;
+        text-align: center;
+
+        .container-social {
+            flex-direction: row;
+            justify-content: center;
+
+            .social1, .social2, .social3 {
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+    .habilidades-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+        div {
+            text-align: center;
+        }
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    footer {
+        text-align: center;
+
+        .container-social {
+            display: flex;
+            justify-content: center;
+
+            a {
+                margin: 0 10px;
+            }
+        }
+    }
