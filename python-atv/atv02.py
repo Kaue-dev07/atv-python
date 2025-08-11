@@ -1,3 +1,5 @@
+# 02 - calculadora básica
+
 print("Bem vindo!!!!, aqui é uma calculadora, ok?")
 
 n1 = float(input("Digite seu primeiro número: "))
@@ -29,3 +31,4 @@ while True:
         print("Caracter invalido, use uma das opções seu animal!")
 
         
+
