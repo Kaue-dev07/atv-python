@@ -1,4 +1,4 @@
-# 02 - calculadora básica
+#02 - calculadora básica
 
 print("Bem vindo!!!!, aqui é uma calculadora, ok?")
 
@@ -31,4 +31,5 @@ while True:
         print("Caracter invalido, use uma das opções seu animal!")
 
         
+
 
