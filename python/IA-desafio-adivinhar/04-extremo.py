@@ -82,21 +82,9 @@ while True:
 
             print("------------------------------------")
 
-            print("Deseja jogar novamente?\n")
+            print(f"Muito bem {nome}! Vamos mais uma rodada?\n")
 
-            jogar_dnv = input("sim(s) ou não(n): ").lower()
-
-            if jogar_dnv == "s" or jogar_dnv == "sim":
-
-                print("Carregando...")
-
-                print("------------------------------------")
-
-                break
-
-            else:
-
-                break
+            break
 
         if chance_atual == chances // 2:
 
@@ -120,14 +108,14 @@ while True:
 
         print(f"que tal na proxima {nome}, deseja jogar dnv?\n")
 
-        jogar_dnv = input("sim(s) ou não(n): ").lower()
+    jogar_dnv = input("sim(s) ou não(n): ").lower()
 
-        if jogar_dnv == "s" or jogar_dnv == "sim":
+    if jogar_dnv == "s" or jogar_dnv == "sim":
 
-            print("Carregando...")
+        print("Carregando...")
 
-            print("------------------------------------")
+        print("------------------------------------")
 
-        else:
+    else:
 
-            break
+        break        
